@@ -9,7 +9,13 @@
     height: 650px;
     width: 90%;
     margin: auto;
+    margin-top: 10rem;
     vertical-align: middle;
+}
+.homeicon-container{
+    margin-top: -1.5rem;
+    margin-left: -.5rem;
+    
 }
 .question-text{
     text-align: left;
@@ -19,7 +25,7 @@
     display: flex;
     margin-top: 15rem;
     margin-bottom: auto;
-    margin-left: 2rem;
+    margin-left: -3rem;
     justify-content: center;
     align-items: center;
     height: 2.5rem;
@@ -31,7 +37,7 @@
     margin-top: 15rem;
     margin-bottom: auto;
     margin-left: auto;
-    margin-right: -2rem;
+    margin-right: -4rem;
     justify-content: center;
     align-items: center;
     height: 2.5rem;
