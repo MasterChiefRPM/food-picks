@@ -1,5 +1,7 @@
 .background-container{
-    background-color: #D9D9D9;
+    background-color: #F7F7F7;
+    border-style: solid;
+    border-color: #D83D3D;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,17 +10,22 @@
     height: 50vh;
     width: 95vw;
 }
+.question-1{
+    gap: 1rem;
+    display: inline-flex;
+}
 .question-container{
-    background-color: white;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-left: vw;
-    min-width: 25rem;
+    max-width: 25rem;
+}
+.question-text{
+   p{font-size: 1.40rem;} 
 }
 
 .dropdown-container{
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,5 +33,18 @@
     margin: auto;
     margin-right: vw;
     min-height: 3.1rem;
-    min-width: 25rem;
+    max-width: 25rem;
+}
+.dropdown{
+    min-height: 2rem;
+    min-width: 20rem;
+    text-align: center;
+}
+.start-over-container{
+    display: flex;
+    align-items: center;
+}
+.start-over-button{
+    color: white;
+    background-color: #D83D3D;
 }
