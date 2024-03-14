@@ -15,7 +15,28 @@
   gap: 3rem;
   display: inline-flex;
 }
-.button-container{
+.button-container {
+  display: flex;
+  align-items: center;
+  
+}
+.buttons{
     display: flex;
-    align-items: center;
+    background-color: #d83d3d;
+    color:white;
+}
+.next-button {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: vw;
+}
+.next-icon {
+  background-color: #d83d3d;
+  margin-top: 5vh;
+  padding: 0.5rem 0;
+  color: #ffffff;
+  min-width: 8rem;
+  border-radius: 0.5rem;
 }
