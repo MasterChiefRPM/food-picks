@@ -15,5 +15,4 @@ export const routes: Routes = [
   { path: 'question-4', component: Question4Component },
   { path: 'question-5', component: Question5Component },
   { path: 'results-page', component: ResultsPageComponent}
-  // new branch
 ];
