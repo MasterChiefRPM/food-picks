@@ -5,7 +5,7 @@
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   margin-top: 25vh;
   height: 50vh;
@@ -14,16 +14,17 @@
 .question-2 {
   gap: 3rem;
   display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .button-container {
   display: flex;
   align-items: center;
-  
 }
-.buttons{
-    display: flex;
-    background-color: #d83d3d;
-    color:white;
+.buttons {
+  display: flex;
+  background-color: #d83d3d;
+  color: white;
 }
 .next-button {
   display: flex;
