@@ -5,9 +5,56 @@
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   margin-top: 25vh;
   height: 50vh;
   width: 95vw;
+}
+.question-5 {
+  gap: 1rem;
+  display: inline-flex;
+}
+.question-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-left: vw;
+  max-width: 25rem;
+}
+.question-text {
+  p {
+    font-size: 1.4rem;
+  }
+}
+.dropdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-right: vw;
+  min-height: 3.1rem;
+  max-width: 25rem;
+}
+.dropdown {
+  min-height: 2rem;
+  min-width: 20rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.next-button {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: vw;
+}
+.next-icon {
+  background-color: #d83d3d;
+  margin-top: 5vh;
+  padding: 0.5rem 0;
+  color: #ffffff;
+  min-width: 8rem;
+  border-radius: 0.5rem;
 }
