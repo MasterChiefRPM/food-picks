@@ -8,7 +8,7 @@ import { Question5Component } from './question-5/question-5.component';
 import { ResultsPageComponent } from './results-page/results-page.component';
 
 export const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  { path: 'home-page', component: HomePageComponent },
   { path: 'question-1', component: Question1Component },
   { path: 'question-2', component: Question2Component },
   { path: 'question-3', component: Question3Component },
