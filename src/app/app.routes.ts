@@ -14,5 +14,6 @@ export const routes: Routes = [
   { path: 'question-3', component: Question3Component },
   { path: 'question-4', component: Question4Component },
   { path: 'question-5', component: Question5Component },
-  { path: 'results-page', component: ResultsPageComponent}
+  { path: 'results-page', component: ResultsPageComponent},
+  { path: 'home-page', component:HomePageComponent}
 ];

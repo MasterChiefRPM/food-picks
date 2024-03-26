@@ -1,13 +1,47 @@
 .background-container {
   background-color: #f7f7f7;
   display: flex;
+  justify-content: space-around;
   margin: auto;
   height: 100vh;
   width: 100vw;
 }
+.result-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-left: 4vw;
+}
 .result-text {
-  display: inline-flex;
+  flex-direction: row;
   p {
     font-size: 48px;
   }
+}
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+.options {
+  border: solid;
+  border-color: #d83d3d;
+  min-width: 15rem;
+  min-height: 25rem;
+}
+.home-button {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: vw;
+}
+.home-icon {
+  background-color: #d83d3d;
+  margin-top: 5vh;
+  padding: 0.5rem 0;
+  color: #ffffff;
+  min-width: 8rem;
+  border-radius: 0.5rem;
 }
